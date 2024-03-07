@@ -1,4 +1,0 @@
-D:/Github/tinyprotocol/cmake-build-debug/CMakeFiles/tinyprotocol.dir
-D:/Github/tinyprotocol/cmake-build-debug/CMakeFiles/test_local_buffer.dir
-D:/Github/tinyprotocol/cmake-build-debug/CMakeFiles/edit_cache.dir
-D:/Github/tinyprotocol/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -6,7 +6,7 @@ int32_t ccsds_read(CCSDSConfig *config, uint8_t *data, uint16_t data_size) {
     }
 
     uint8_t buffer[sizeof(SpacePacket)];
-    uint32_t read_size = config->read(buffer, sizeof(SpacePacketPrimaryHeader) + data_size);
+    int32_t read_size = config->read(buffer, sizeof(SpacePacketPrimaryHeader) + data_size);
 
     SpacePacket packet;
     memset(&packet, 0, sizeof(SpacePacket));
